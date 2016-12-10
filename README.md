@@ -2,4 +2,4 @@
 
 A simple syntax highlighter for the [Hak5 USB Ducky](http://usbrubberducky.com). Enjoy.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot of your theme](https://cloud.githubusercontent.com/assets/8335656/21072019/c7e16ee0-be79-11e6-9352-26caf01aef37.gif)
