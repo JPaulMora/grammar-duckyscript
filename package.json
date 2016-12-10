@@ -1,13 +1,13 @@
 {
   "name": "grammar-duckyscript",
-  "theme": "syntax",
   "version": "0.1.0",
   "description": "A simple syntax highlighter for the Hak5 USB Ducky. Enjoy.",
   "keywords": [
     "syntax",
-    "theme",
+    "grammar",
     "hak5",
-    "Ducky"
+    "ducky",
+    "duckyscript"
   ],
   "repository": {
     "type": "git",
