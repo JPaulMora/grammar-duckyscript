@@ -1,0 +1,34 @@
+'scopeName': 'source.duckyscrypt'
+'name': 'Duckyscrypt'
+'fileTypes': [
+  'dk'
+  'duk'
+  'duck'
+  'quak'
+]
+'patterns':[
+  {
+    'name':'comment.duckyscript'
+    'match':'(^REM).*$'
+  }
+  {
+    'name':'string'
+    'match':'(^STRING)'
+  }
+  {
+    'name':'variable'
+    'match':'(CONTROL|ALT|SHIFT|ENTER|SPACE|UP|UPARROW|DOWN|DOWNARROW|LEFT|LEFTARROW|RIGHT|RIGHTARROW|GUI|CMD|WINDOWS|ESC|ESCAPE) (CONTROL|ALT|SHIFT|ENTER|SPACE|UP|UPARROW|DOWN|DOWNARROW|LEFT|LEFTARROW|RIGHT|RIGHTARROW|GUI|CMD|WINDOWS|ESC|ESCAPE)(\\b){1,}'
+  }
+  {
+    'name':'variable'
+    'match':' (CONTROL|ALT|SHIFT|ENTER|SPACE|UP|UPARROW|DOWN|DOWNARROW|LEFT|LEFTARROW|RIGHT|RIGHTARROW|GUI|CMD|WINDOWS|ESC|ESCAPE)'
+  }
+  {
+    'name':'keyword'
+    'match':'^(CONTROL|ALT|SHIFT|ENTER|SPACE|UP|UPARROW|DOWN|DOWNARROW|LEFT|LEFTARROW|RIGHT|RIGHTARROW|GUI|CMD|WINDOWS|ESC|ESCAPE)$'
+  }
+  {
+    'name':'entity.name.function'
+    'match': '^(REPEAT|DELAY) (\\d\\d\\d\\d|\\d\\d\\d|\\d\\d|\\d)'
+  }
+]
