@@ -1,5 +1,5 @@
 {
-  "name": "duckyscript-syntax",
+  "name": "grammar-duckyscript",
   "theme": "syntax",
   "version": "0.0.0",
   "description": "A simple syntax highlighter for the Hak5 USB Ducky. Enjoy.",
@@ -9,11 +9,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JPaulMora/duckyscript-syntax.git"
+    "url": "git+https://github.com/JPaulMora/grammar-duckyscript.git"
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/JPaulMora/duckyscript-syntax/issues"
+    "url": "https://github.com/JPaulMora/grammar-duckyscript/issues"
   },
   "license": "MIT",
   "engines": {
