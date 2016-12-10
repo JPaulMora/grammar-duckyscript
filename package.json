@@ -5,7 +5,9 @@
   "description": "A simple syntax highlighter for the Hak5 USB Ducky. Enjoy.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "hak5",
+    "Ducky"
   ],
   "repository": {
     "type": "git",

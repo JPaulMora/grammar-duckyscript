@@ -1,5 +1,5 @@
-'scopeName': 'source.duckyscrypt'
-'name': 'Duckyscrypt'
+'scopeName': 'source.duckyscript'
+'name': 'Duckyscript'
 'fileTypes': [
   'dk'
   'duk'
@@ -8,7 +8,7 @@
 ]
 'patterns':[
   {
-    'name':'comment.duckyscript'
+    'name':'comment'
     'match':'(^REM).*$'
   }
   {
